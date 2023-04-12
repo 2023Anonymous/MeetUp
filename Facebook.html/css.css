@@ -1,0 +1,25 @@
+input{
+    background-color: transparent;
+    padding: 13px;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 4px solid rgba(0, 0, 0, 0.404);
+    border-bottom: 2px solid white;
+    color: rgb(163, 152, 152);
+    font-size: 17px;
+    margin-top: 15px;
+}
+input::placeholder{
+    color: black;
+}
+
+.btn{
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    border: 1px solid blue;
+    margin-top: 10px;
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<link rel="icon" href="image/logo.png">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meet up App</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body style="background-color: rgba(0, 128, 0, 0.255);">
+        <style>
+                .container{
+                    width: 40%;
+                    /* border: 2px solid black; */
+                    border-radius: 8px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    
+                }
+                #input{
+                    display: block;
+                    width: 75%;
+                    padding: 20px 10px;
+                    border-radius: 8px;
+                    border: 1px solid white;
+                    background-color: white
+                }
+                button{
+                    padding: i5px 30px;
+                    border-radius: 15px;
+                    border: 1px solid white;
+                    background-color: rgba(9, 124, 42, 0.788);
+                    font-size: 23px;  
+                }
+
+                
+                .or{
+                    margin-top: 20px 0;
+                    /* display: flex; */
+                    justify-content: center;
+                    align-items: center;
+                    gap: 50px;
+                }
+                .or >hr{
+                    width: 100%;
+                }
+                        
+                
+            </style>
+            <script>
+                let logIn = 'Sorry We Couldnt Find Your Account   , Try Again Or Create New Account'
+                let Bad = 'Something Went wrong'
+            </script>
+            <h1 style="text-align: center;"><img src="image/logo.png"></h1>
+            <div class="container">
+
+                    <form action="meetUpHome.html" id="form">
+                    <h2>Log in/Sign up</h2>
+                        <input class="email" type="email" name="email" placeholder="Email" required><br>
+                        <input class="password" type="password" name="password" placeholder="Password" required><br>
+                        <button type="submit" class="btn">Login</button>
+                    </form>
+                <a href="meetup2.html"><p>Forgotten password?</p></a><br>
+
+                </form>
+                <div class="or">
+                    <hr>
+                    <span>Or</span>
+                    <hr>
+                </div>
+
+                <p style="text-align: center;"><a href="meetup4.html"><button style="background-color: rgba(0, 128, 0, 0.26);">Create New Account</button></a></p><br>
+                <p>English (UK),<button onclick="alert(Bad)" style="background-color: transparent;color: rgb(82, 82, 150);">More Langueges..</button></p>
+            </div>
+
+            <script src="../facebook.js/facebook1.js"></script>
+    </body>
+</html>
